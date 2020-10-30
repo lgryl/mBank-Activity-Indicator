@@ -7,17 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB4B52C92551B4F800ABAA84 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4B52C82551B4F800ABAA84 /* Colors.swift */; };
 		CB63F37A2547EB46000112A5 /* ActivityIndicatorUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CB63F3782547EB46000112A5 /* ActivityIndicatorUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB63F3882547EB53000112A5 /* ActivityIndicatorSwiftUI.h in Headers */ = {isa = PBXBuildFile; fileRef = CB63F3862547EB53000112A5 /* ActivityIndicatorSwiftUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB63F3A02547EC74000112A5 /* ActivityIndicatorSwiftUI.h in Headers */ = {isa = PBXBuildFile; fileRef = CB63F39E2547EC74000112A5 /* ActivityIndicatorSwiftUI.h */; };
+		CB63F3A72547ED3B000112A5 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB63F3A62547ED3B000112A5 /* ActivityIndicatorView.swift */; };
+		CB63F3BA2547F88D000112A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB63F3B92547F88D000112A5 /* Assets.xcassets */; };
+		CB63F3BB2547F88D000112A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB63F3B92547F88D000112A5 /* Assets.xcassets */; };
+		CB63F3DD25485ECE000112A5 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB63F3DC25485ECE000112A5 /* CGRect.swift */; };
+		CBAB015B254BD81A001DC756 /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAB015A254BD81A001DC756 /* CALayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB4B52C82551B4F800ABAA84 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		CB63F3762547EB46000112A5 /* ActivityIndicatorUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActivityIndicatorUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB63F3782547EB46000112A5 /* ActivityIndicatorUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivityIndicatorUIKit.h; sourceTree = "<group>"; };
 		CB63F3792547EB46000112A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB63F3842547EB53000112A5 /* ActivityIndicatorSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActivityIndicatorSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB63F3862547EB53000112A5 /* ActivityIndicatorSwiftUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivityIndicatorSwiftUI.h; sourceTree = "<group>"; };
-		CB63F3872547EB53000112A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB63F3942547EBF8000112A5 /* ActivityIndicatorSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActivityIndicatorSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB63F39E2547EC74000112A5 /* ActivityIndicatorSwiftUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityIndicatorSwiftUI.h; sourceTree = "<group>"; };
+		CB63F39F2547EC74000112A5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB63F3A62547ED3B000112A5 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		CB63F3B92547F88D000112A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB63F3DC25485ECE000112A5 /* CGRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
+		CBAB015A254BD81A001DC756 /* CALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,7 +39,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB63F3812547EB53000112A5 /* Frameworks */ = {
+		CB63F3912547EBF8000112A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,8 +52,9 @@
 		CB5FD44B25469A3D0098B6D4 = {
 			isa = PBXGroup;
 			children = (
+				CB63F3B92547F88D000112A5 /* Assets.xcassets */,
 				CB63F3772547EB46000112A5 /* ActivityIndicatorUIKit */,
-				CB63F3852547EB53000112A5 /* ActivityIndicatorSwiftUI */,
+				CB63F3952547EBF8000112A5 /* ActivityIndicatorSwiftUI */,
 				CB5FD45625469A3D0098B6D4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,7 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				CB63F3762547EB46000112A5 /* ActivityIndicatorUIKit.framework */,
-				CB63F3842547EB53000112A5 /* ActivityIndicatorSwiftUI.framework */,
+				CB63F3942547EBF8000112A5 /* ActivityIndicatorSwiftUI.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,17 +73,29 @@
 			children = (
 				CB63F3782547EB46000112A5 /* ActivityIndicatorUIKit.h */,
 				CB63F3792547EB46000112A5 /* Info.plist */,
+				CBAB0160254BE6DA001DC756 /* Extensions */,
+				CB63F3A62547ED3B000112A5 /* ActivityIndicatorView.swift */,
+				CB4B52C82551B4F800ABAA84 /* Colors.swift */,
 			);
 			path = ActivityIndicatorUIKit;
 			sourceTree = "<group>";
 		};
-		CB63F3852547EB53000112A5 /* ActivityIndicatorSwiftUI */ = {
+		CB63F3952547EBF8000112A5 /* ActivityIndicatorSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				CB63F3862547EB53000112A5 /* ActivityIndicatorSwiftUI.h */,
-				CB63F3872547EB53000112A5 /* Info.plist */,
+				CB63F39E2547EC74000112A5 /* ActivityIndicatorSwiftUI.h */,
+				CB63F39F2547EC74000112A5 /* Info.plist */,
 			);
 			path = ActivityIndicatorSwiftUI;
+			sourceTree = "<group>";
+		};
+		CBAB0160254BE6DA001DC756 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CB63F3DC25485ECE000112A5 /* CGRect.swift */,
+				CBAB015A254BD81A001DC756 /* CALayer.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,11 +109,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB63F37F2547EB53000112A5 /* Headers */ = {
+		CB63F38F2547EBF8000112A5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB63F3882547EB53000112A5 /* ActivityIndicatorSwiftUI.h in Headers */,
+				CB63F3A02547EC74000112A5 /* ActivityIndicatorSwiftUI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,14 +138,14 @@
 			productReference = CB63F3762547EB46000112A5 /* ActivityIndicatorUIKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CB63F3832547EB53000112A5 /* ActivityIndicatorSwiftUI */ = {
+		CB63F3932547EBF8000112A5 /* ActivityIndicatorSwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB63F3892547EB53000112A5 /* Build configuration list for PBXNativeTarget "ActivityIndicatorSwiftUI" */;
+			buildConfigurationList = CB63F3992547EBF8000112A5 /* Build configuration list for PBXNativeTarget "ActivityIndicatorSwiftUI" */;
 			buildPhases = (
-				CB63F37F2547EB53000112A5 /* Headers */,
-				CB63F3802547EB53000112A5 /* Sources */,
-				CB63F3812547EB53000112A5 /* Frameworks */,
-				CB63F3822547EB53000112A5 /* Resources */,
+				CB63F38F2547EBF8000112A5 /* Headers */,
+				CB63F3902547EBF8000112A5 /* Sources */,
+				CB63F3912547EBF8000112A5 /* Frameworks */,
+				CB63F3922547EBF8000112A5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -129,7 +153,7 @@
 			);
 			name = ActivityIndicatorSwiftUI;
 			productName = ActivityIndicatorSwiftUI;
-			productReference = CB63F3842547EB53000112A5 /* ActivityIndicatorSwiftUI.framework */;
+			productReference = CB63F3942547EBF8000112A5 /* ActivityIndicatorSwiftUI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -142,9 +166,11 @@
 				TargetAttributes = {
 					CB63F3752547EB46000112A5 = {
 						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1210;
 					};
-					CB63F3832547EB53000112A5 = {
+					CB63F3932547EBF8000112A5 = {
 						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1210;
 					};
 				};
 			};
@@ -162,7 +188,7 @@
 			projectRoot = "";
 			targets = (
 				CB63F3752547EB46000112A5 /* ActivityIndicatorUIKit */,
-				CB63F3832547EB53000112A5 /* ActivityIndicatorSwiftUI */,
+				CB63F3932547EBF8000112A5 /* ActivityIndicatorSwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -172,13 +198,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB63F3BA2547F88D000112A5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB63F3822547EB53000112A5 /* Resources */ = {
+		CB63F3922547EBF8000112A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB63F3BB2547F88D000112A5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,10 +217,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBAB015B254BD81A001DC756 /* CALayer.swift in Sources */,
+				CB4B52C92551B4F800ABAA84 /* Colors.swift in Sources */,
+				CB63F3A72547ED3B000112A5 /* ActivityIndicatorView.swift in Sources */,
+				CB63F3DD25485ECE000112A5 /* CGRect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB63F3802547EB53000112A5 /* Sources */ = {
+		CB63F3902547EBF8000112A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -327,6 +359,7 @@
 		CB63F37C2547EB46000112A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5667E7L429;
@@ -343,6 +376,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pl.lgryl.ActivityIndicatorUIKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -351,6 +385,7 @@
 		CB63F37D2547EB46000112A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5667E7L429;
@@ -372,9 +407,10 @@
 			};
 			name = Release;
 		};
-		CB63F38A2547EB53000112A5 /* Debug */ = {
+		CB63F39A2547EBF8000112A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5667E7L429;
@@ -391,14 +427,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pl.lgryl.ActivityIndicatorSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CB63F38B2547EB53000112A5 /* Release */ = {
+		CB63F39B2547EBF8000112A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5667E7L429;
@@ -441,11 +479,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB63F3892547EB53000112A5 /* Build configuration list for PBXNativeTarget "ActivityIndicatorSwiftUI" */ = {
+		CB63F3992547EBF8000112A5 /* Build configuration list for PBXNativeTarget "ActivityIndicatorSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB63F38A2547EB53000112A5 /* Debug */,
-				CB63F38B2547EB53000112A5 /* Release */,
+				CB63F39A2547EBF8000112A5 /* Debug */,
+				CB63F39B2547EBF8000112A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
