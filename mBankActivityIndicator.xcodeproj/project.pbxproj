@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		CB4B52C92551B4F800ABAA84 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4B52C82551B4F800ABAA84 /* Colors.swift */; };
 		CB63F37A2547EB46000112A5 /* ActivityIndicatorUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CB63F3782547EB46000112A5 /* ActivityIndicatorUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB63F3A02547EC74000112A5 /* ActivityIndicatorSwiftUI.h in Headers */ = {isa = PBXBuildFile; fileRef = CB63F39E2547EC74000112A5 /* ActivityIndicatorSwiftUI.h */; };
+		CB63F3A02547EC74000112A5 /* ActivityIndicatorSwiftUI.h in Headers */ = {isa = PBXBuildFile; fileRef = CB63F39E2547EC74000112A5 /* ActivityIndicatorSwiftUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB63F3A72547ED3B000112A5 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB63F3A62547ED3B000112A5 /* ActivityIndicatorView.swift */; };
 		CB63F3BA2547F88D000112A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB63F3B92547F88D000112A5 /* Assets.xcassets */; };
 		CB63F3BB2547F88D000112A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB63F3B92547F88D000112A5 /* Assets.xcassets */; };
 		CB63F3DD25485ECE000112A5 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB63F3DC25485ECE000112A5 /* CGRect.swift */; };
 		CBAB015B254BD81A001DC756 /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAB015A254BD81A001DC756 /* CALayer.swift */; };
+		CBAB0166254DA496001DC756 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAB0165254DA496001DC756 /* ActivityIndicatorView.swift */; };
+		CBAB0178254DC207001DC756 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAB0177254DC207001DC756 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		CB63F3B92547F88D000112A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB63F3DC25485ECE000112A5 /* CGRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
 		CBAB015A254BD81A001DC756 /* CALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
+		CBAB0165254DA496001DC756 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		CBAB0177254DC207001DC756 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 			children = (
 				CB63F39E2547EC74000112A5 /* ActivityIndicatorSwiftUI.h */,
 				CB63F39F2547EC74000112A5 /* Info.plist */,
+				CBAB0165254DA496001DC756 /* ActivityIndicatorView.swift */,
+				CBAB0177254DC207001DC756 /* Colors.swift */,
 			);
 			path = ActivityIndicatorSwiftUI;
 			sourceTree = "<group>";
@@ -228,6 +234,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBAB0178254DC207001DC756 /* Colors.swift in Sources */,
+				CBAB0166254DA496001DC756 /* ActivityIndicatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
